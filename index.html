@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F3F0EA" />
+    <meta name="description" content="Семейная парикмахерская в Санкт-Петербурге. Услуги, мастера, адрес и телефоны." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Семейная парикмахерская" />
+    <meta property="og:description" content="Услуги, мастера и цены семейной парикмахерской." />
+    <title>Семейная парикмахерская</title>
+    <link rel="icon" type="image/png" href="/beauty-salon-editorial-site/images/salon-logo-mark.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500&display=swap&subset=cyrillic" rel="stylesheet" />
+    <script type="module" crossorigin src="/beauty-salon-editorial-site/assets/index-4XgyxtqC.js"></script>
+    <link rel="stylesheet" crossorigin href="/beauty-salon-editorial-site/assets/index-BUh9fK1v.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" id="top">
+      <a class="wordmark" href="#top" aria-label="Семейная парикмахерская — в начало страницы">
+        <img class="wordmark__logo" src="/beauty-salon-editorial-site/images/salon-logo.png" alt="Семейная парикмахерская" />
+      </a>
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#team">Мастера</a>
+        <a href="#gallery">Работы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Открыть меню">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu__top">
+        <span class="eyebrow">НАВИГАЦИЯ</span>
+        <button class="icon-button menu-close" type="button" aria-label="Закрыть меню">×</button>
+      </div>
+      <nav aria-label="Мобильная навигация">
+        <a href="#services"><small>01</small> Услуги <span>↗︎</span></a>
+        <a href="#team"><small>02</small> Мастера <span>↗︎</span></a>
+        <a href="#gallery"><small>03</small> Работы <span>↗︎</span></a>
+        <a href="#contacts"><small>04</small> Контакты <span>↗︎</span></a>
+      </nav>
+    </div>
+    <div class="menu-scrim" aria-hidden="true"></div>
+
+    <main id="main">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <h1 id="hero-title" class="hero__title" data-reveal-lines>
+            <span>Твой стиль.</span>
+            <span>Твоя <em>история.</em></span>
+          </h1>
+          <a class="button button--primary magnetic" href="#services">
+            <span>Смотреть услуги</span><span class="button__arrow" aria-hidden="true">↗︎</span>
+          </a>
+        </div>
+        <div class="hero__visual reveal-image">
+          <div class="hero__photo-wrap">
+            <img src="/beauty-salon-editorial-site/images/salon-hero.jpg" alt="Женская стрижка в салоне" fetchpriority="high" />
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-label="Разделы сайта">
+        <div class="ticker__track" aria-hidden="true"><div class="ticker__content"></div></div>
+      </div>
+
+      <aside class="recruit-banner section-shell" aria-labelledby="recruit-title">
+        <div class="recruit-banner__copy">
+          <p class="section-label"><span>КОМАНДА</span> / ПРИСОЕДИНЯЙТЕСЬ</p>
+          <h2 id="recruit-title">Ищем <em>парикмахера</em></h2>
+          <p>Будем рады познакомиться с новым мастером.</p>
+        </div>
+        <a class="button button--primary recruit-banner__button" href="#contacts"><span>Связаться</span><span class="button__arrow" aria-hidden="true">↗︎</span></a>
+      </aside>
+
+      <section class="services section-shell" id="services" aria-labelledby="services-title">
+        <div class="section-heading" data-reveal>
+          <div>
+            <p class="section-label"><span>01</span> / КАТАЛОГ</p>
+            <h2 id="services-title">Услуги <em>и цены</em></h2>
+          </div>
+          <p class="section-heading__note">Выберите услугу,<br />чтобы открыть карточку</p>
+        </div>
+        <div class="service-tabs" role="tablist" aria-label="Категории услуг" id="service-tabs"></div>
+        <div class="services__body">
+          <div class="service-list" id="service-list" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="team" id="team" aria-labelledby="team-title">
+        <div class="team__inner section-shell">
+          <div class="section-heading section-heading--light" data-reveal>
+            <div><p class="section-label"><span>02</span> / КОМАНДА</p><h2 id="team-title">Люди, которые<br /><em>создают образ</em></h2></div>
+          </div>
+          <div class="team__grid" id="team-grid"></div>
+        </div>
+      </section>
+
+      <section class="gallery section-shell" id="gallery" aria-labelledby="gallery-title">
+        <div class="section-heading" data-reveal>
+          <div><p class="section-label"><span>03</span> / ГАЛЕРЕЯ</p><h2 id="gallery-title">Визуальный <em>дневник</em></h2></div>
+        </div>
+        <div class="gallery__filters" id="gallery-filters" role="group" aria-label="Фильтр галереи"></div>
+        <div class="gallery__grid" id="gallery-grid"></div>
+        <p class="gallery__empty" id="gallery-empty" hidden>В этой категории пока нет фотографий.</p>
+      </section>
+
+      <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+        <div class="contacts__inner section-shell">
+          <div class="contacts__copy" data-reveal>
+            <p class="section-label"><span>04</span> / КОНТАКТЫ</p>
+            <h2 id="contacts-title">Будем<br /><em>на связи</em></h2>
+            <div class="contact-line"><span>АДРЕС</span><b>Санкт-Петербург, улица Маршала Захарова, 12, корп. 1</b></div>
+            <div class="contact-line"><span>ТЕЛЕФОН</span><b><a href="tel:+78129222677">+7 812 922-26-77</a></b></div>
+            <div class="contact-line"><span>ТЕЛЕФОН</span><b><a href="tel:+79522817871">8 952 281-78-71</a></b></div>
+          </div>
+          <div class="contacts__visual reveal-image">
+            <a class="map-link" href="https://yandex.ru/maps/org/semeynaya_parikmakherskaya/48576293883?si=fmunc3vdfjvy6qnpwrp1rd3404" target="_blank" rel="noopener noreferrer" aria-label="Открыть Семейную парикмахерскую в Яндекс Картах">
+              <iframe title="Семейная парикмахерская на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?ll=30.159524%2C59.860055&mode=poi&poi%5Bpoint%5D=30.159524%2C59.860055&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D48576293883&z=17" loading="lazy" tabindex="-1" aria-hidden="true"></iframe>
+              <span class="map-link__hint">ЯНДЕКС КАРТЫ ↗︎</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__top section-shell">
+        <a class="wordmark wordmark--footer" href="#top" aria-label="Семейная парикмахерская — в начало страницы"><img class="wordmark__logo" src="/beauty-salon-editorial-site/images/salon-logo.png" alt="Семейная парикмахерская" /></a>
+        <nav class="footer-nav" aria-label="Навигация в подвале"><a href="#services">Услуги</a><a href="#team">Мастера</a><a href="#gallery">Работы</a><a href="#contacts">Контакты</a></nav>
+        <a class="back-top" href="#top" aria-label="Вернуться в начало">↑︎</a>
+      </div>
+      <div class="site-footer__bottom section-shell"><span>© <span id="year"></span> Семейная парикмахерская</span><span>✳︎</span></div>
+    </footer>
+
+    <dialog class="detail-dialog" id="service-dialog" aria-labelledby="detail-title">
+      <button class="dialog-close" type="button" aria-label="Закрыть карточку услуги">×</button>
+      <div class="detail-dialog__photo">
+        <img id="detail-image" src="/beauty-salon-editorial-site/images/hair-demo.jpg" alt="" />
+        <div class="detail-dialog__photo-placeholder" id="detail-placeholder" hidden aria-hidden="true"><span>✳︎</span></div>
+        <div class="image-controls"><button type="button" id="detail-prev" aria-label="Предыдущее фото">←︎</button><span id="detail-count">01 / 01</span><button type="button" id="detail-next" aria-label="Следующее фото">→︎</button></div>
+      </div>
+      <div class="detail-dialog__content">
+        <p class="section-label"><span>УСЛУГА</span> / <span id="detail-category"></span></p>
+        <h2 id="detail-title"></h2>
+        <div class="detail-dialog__price"><span>СТОИМОСТЬ</span><b id="detail-price"></b></div>
+      </div>
+    </dialog>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Просмотр фотографии">
+      <button class="dialog-close dialog-close--light" type="button" aria-label="Закрыть просмотр">×</button>
+      <button class="lightbox__arrow lightbox__arrow--prev" id="lightbox-prev" type="button" aria-label="Предыдущее изображение">←︎</button>
+      <figure><img id="lightbox-image" src="/beauty-salon-editorial-site/images/hair-demo.jpg" alt="" /><figcaption><span id="lightbox-caption"></span><span id="lightbox-count"></span></figcaption></figure>
+      <button class="lightbox__arrow lightbox__arrow--next" id="lightbox-next" type="button" aria-label="Следующее изображение">→︎</button>
+    </dialog>
+  </body>
+</html>
